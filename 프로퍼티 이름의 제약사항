@@ -1,0 +1,8 @@
+// 예약어를 키로 사용해도 괜찮습니다.
+let obj = {
+  for: 1,
+  let: 2,
+  return: 3
+};
+
+alert( obj.for + obj.let + obj.return );  // 6
